@@ -20,6 +20,11 @@ To get started with the project, we will need some images. We use images from th
 Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyris K, Mishra N, Kittler H, Halpern A. "Skin Lesion Analysis Toward Melanoma Detection: A Challenge at the 2017 International Symposium on Biomedical Imaging (ISBI), Hosted by the International Skin Imaging Collaboration (ISIC)". arXiv: 1710.05006 [cs.CV] Available: https://arxiv.org/abs/1710.05006
 
 
+In de eerste instantie gaan jullie aan de slag met 100 oefenbeelden (hetzelfde beelden voor iedereen). Hiervoor is per beeld een klasse bekend is (bijvoorbeeld Melanoma (0 = nee, 1 = ja) of Keratosis (0 = nee, 1 = ja)). 
+Elk groepje krijgt ook een eigen bestand, die 100 andere beelden beschrijft (verschillende 100 beelden per groepje). In de eerste instantie krijgen jullie hiervoor alleen de beelden, na het inleveren van de tussentijdse opdracht krijgen jullie ook de klasse labels.  
+Het is verplicht om in iedere geval je eigen beelden te gebruiken, maar het is toegestaan om daarnaast andere data te gebruiken als jullie dat willen. 
+
+
 To get the data, go to this page https://surfdrive.surf.nl/files/index.php/s/nMApH6fK10RjSMa and download two things:  
 
 - Large zipfile with the images
@@ -33,6 +38,17 @@ In the zipfile you will find subfolders with two types of images:
 The Excel files contain information about the images. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
 
 ## Intermediate assignment
+
+-	Een Excel bestand annotations_2019groupX.xlsx (zie template op Canvas) waar jullie zelf “op het oog” een aantal kenmerken voor jullie dataset meten. Per kenmerk moeten er minimaal 3 herhaalde metingen zijn, die door verschillende mensen gemaakt zijn. Per kenmerk moet 1 persoon alle 100 metingen doen. Verdere uitleg staat in de Excel sheet.  
+
+Het is aan jullie om te beslissen hoe jullie meten, maar de metingen moeten getallen zijn. Bijvoorbeeld 0 (nee) of 1 (ja), of een score tussen de 0 en 100, of een score van 1-5. Leg uit wat jullie keuze is. Dit mag verschillend zijn per kenmerk. 
+
+-	2 A4jes PDF met twee dingen:
+o	een lijst kenmerken die jullie zouden willen meten, met een korte motivatie en een strategie hoe jullie dit willen doen. De kenmerken die jullie op het oog hebben gemeten, moeten hier onderdeel van zijn. Bijvoorbeeld, voor het kenmerk “grootte” zou de strategie kunnen zijn “het aantal witte pixels in het masker”. 
+o	Een beschrijving van een mogelijk experiment, wat zouden jullie met wat kunnen vergelijken? Jullie kunnen de getallen uit de template gebruiken om hiermee alvast te experimenteren. 
+
+Het is voor deze opdracht niet nodig om code in te leveren. 
+
 
 Hand-in your by-hand annotations (for your group images), following the template in group2019_example_labels.xlsx:  
 
@@ -75,6 +91,8 @@ For the final assignment you have to hand in your report (see the Casusinfo) and
 
 -	Follow the guidelines above for using comments, and separating your parameters from your code. 
 
-
+# Presentation
+Om stem op te nemen zijn er verschillende gratis programma’s beschikbaar, zoals Audacity.
+Gebruik geen extern beeldmateriaal waarvan de auteursrechten dit niet toestaan. In Google Image search kun je bij “Tools” aangeven dat beelden die gevonden worden, “Labeled for reuse” zijn.
 
 
