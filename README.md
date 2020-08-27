@@ -27,8 +27,8 @@ Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyr
 
 There are more than 2000 images in this dataset. For each image, we have the following data:
 
-*	ISIC_[ID].png the image of the lesion
-*	ISIC_[ID]\_segmentation.png the mask of the lesion, showing which pixels belong to the lesion or not
+*	`ISIC_[ID].png` the image of the lesion
+*	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
 The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from https://surfdrive.surf.nl/files/index.php/s/nMApH6fK10RjSMa .
@@ -36,7 +36,7 @@ The full dataset is available via https://challenge.isic-archive.com/landing/201
 
 ## Intermediate assignment
 
-Initially you will work with a subset of 100 images, which are different for each group. The Excel files with the IDs of the images you need, will be shared on Canvas. The format is the same as of the file group2019_example_labels.xlsx. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
+Initially you will work with a subset of 100 images, which are different for each group. The Excel files with the IDs of the images you need, will be shared on Canvas. The format is the same as of the file `class2020_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
 
 There are two things you need to do in your assignment, measure the images by hand, and describe your plan for the final assignment.
 
@@ -48,7 +48,9 @@ There are two things you need to do in your assignment, measure the images by ha
 
 * You can decide yourself how to measure things, but the measurement has to be numerical. For example a binary score (0 = no, 1 = yes), a scale (for example 1 to 5), etc.  
 
-* Follow the instructions of the template and use the same format. 
+* Follow the instructions of the template and use the same format.
+
+* Hand in the `class2020_groupXY_manual.xlsx` file on Canvas.
 
 * This data will allow you to start doing experiments early on, so that you can spread the work inside the group. 
 
@@ -69,9 +71,9 @@ There are two things you need to do in your assignment, measure the images by ha
 
 For the final assignment you have to hand in your report (see Canvas) and your code. You can hand in the code this with a ZIP file. Some tips:
 
-*	Your main script has to be called class2020_groupXY.ipynb where XY is the group number. This script has to perform everything that is necessary to create your measurements and experiments.  
+*	Your main script has to be called `class2020_groupXY.ipynb` where XY is the group number. This script has to perform everything that is necessary to create your measurements and experiments.  
 
-* Include the Excel file that your code creates (class2020_groupXY_automatic.xlsx)
+* Include the Excel file that your code creates (`class2020_groupXY_automatic.xlsx`)
 
 *	All necessary code (except common Python packages) needs to be included in the zip file. 
 
