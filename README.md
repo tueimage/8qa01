@@ -1,17 +1,22 @@
 # Course Project: Image Analysis for cancer risk assessment (8QA01)
 
+This is a repository for the course 8QA01 at Eindhoven University of Technology. In this repository you will find information relating to the technical part of your project. Information about deadlines etc, is all announced via the Canvas page. 
 
 ## Getting started 
 
-In this project you will work with Python. This means you will need an to install software to run and edit Python code. We have a tutorial which guides you through this here: https://github.com/tueimage/essential-skills/blob/master/python-essentials.md 
+In this project you will work with Python. This means you need to install software to run and edit Python code. We have a tutorial which guides you through this here: https://github.com/tueimage/essential-skills/blob/master/python-essentials.md . If you use Python for a different course (for example Genomics), you do not need to do anything extra. 
 
 For this course you can use Jupyter Notebook which is covered in the tutorial, but other software (if you use it in other subjects) is also possible. 
 
 ## Structure
 
-The overall project steps can be found in the notebook (project_walkthrough.ipynb), which already contains a general script to go through all the images, measure simple features, and create a plot of the measurements. You can use this notebook/script for your project as well, but implement additional functions for measurement and analysis. 
+The overall project steps can be found in the notebook (project_walkthrough.ipynb), which already contains a general script to: 
 
-The functions needed to measure features are found in the Python module utilities_8qa01.py, which currently contains two functions. This is where you should add more functions for completing your project. 
+* go through all the images
+* measure simple features in each image
+* create a plot of the measurements. 
+
+These steps use functions, which can be find in the module utilities_8qa01.py. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
 
 ## Data
 
@@ -20,79 +25,59 @@ To get started with the project, we will need some images. We use images from th
 Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyris K, Mishra N, Kittler H, Halpern A. "Skin Lesion Analysis Toward Melanoma Detection: A Challenge at the 2017 International Symposium on Biomedical Imaging (ISBI), Hosted by the International Skin Imaging Collaboration (ISIC)". arXiv: 1710.05006 [cs.CV] Available: https://arxiv.org/abs/1710.05006
 
 
-In de eerste instantie gaan jullie aan de slag met 100 oefenbeelden (hetzelfde beelden voor iedereen). Hiervoor is per beeld een klasse bekend is (bijvoorbeeld Melanoma (0 = nee, 1 = ja) of Keratosis (0 = nee, 1 = ja)). 
-Elk groepje krijgt ook een eigen bestand, die 100 andere beelden beschrijft (verschillende 100 beelden per groepje). In de eerste instantie krijgen jullie hiervoor alleen de beelden, na het inleveren van de tussentijdse opdracht krijgen jullie ook de klasse labels.  
-Het is verplicht om in iedere geval je eigen beelden te gebruiken, maar het is toegestaan om daarnaast andere data te gebruiken als jullie dat willen. 
+There are more than 2000 images in this dataset. For each image, we have the following data:
 
+*	ISIC_[ID].png the image of the lesion
+*	ISIC_[ID]\_segmentation.png the mask of the lesion, showing which pixels belong to the lesion or not
+* The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
-To get the data, go to this page https://surfdrive.surf.nl/files/index.php/s/nMApH6fK10RjSMa and download two things:  
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from https://surfdrive.surf.nl/files/index.php/s/nMApH6fK10RjSMa .
 
-- Large zipfile with the images
-- Excel files corresponding to your group
-
-In the zipfile you will find subfolders with two types of images:
-
--	ISIC_[ID].png with a lesion
--	ISIC_[ID]_segmentation.png with a mask showing which pixels belong to the lesion
-
-The Excel files contain information about the images. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
 
 ## Intermediate assignment
 
--	Een Excel bestand annotations_2019groupX.xlsx (zie template op Canvas) waar jullie zelf “op het oog” een aantal kenmerken voor jullie dataset meten. Per kenmerk moeten er minimaal 3 herhaalde metingen zijn, die door verschillende mensen gemaakt zijn. Per kenmerk moet 1 persoon alle 100 metingen doen. Verdere uitleg staat in de Excel sheet.  
+Initially you will work with a subset of 100 images, which are different for each group. The Excel files with the IDs of the images you need, will be shared on Canvas. The format is the same as of the file group2019_example_labels.xlsx. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
 
-Het is aan jullie om te beslissen hoe jullie meten, maar de metingen moeten getallen zijn. Bijvoorbeeld 0 (nee) of 1 (ja), of een score tussen de 0 en 100, of een score van 1-5. Leg uit wat jullie keuze is. Dit mag verschillend zijn per kenmerk. 
+There are two things you need to do in your assignment, measure the images by hand, and describe your plan for the final assignment.
 
--	2 A4jes PDF met twee dingen:
-o	een lijst kenmerken die jullie zouden willen meten, met een korte motivatie en een strategie hoe jullie dit willen doen. De kenmerken die jullie op het oog hebben gemeten, moeten hier onderdeel van zijn. Bijvoorbeeld, voor het kenmerk “grootte” zou de strategie kunnen zijn “het aantal witte pixels in het masker”. 
-o	Een beschrijving van een mogelijk experiment, wat zouden jullie met wat kunnen vergelijken? Jullie kunnen de getallen uit de template gebruiken om hiermee alvast te experimenteren. 
+### Intermediate assignment - part 1
 
-Het is voor deze opdracht niet nodig om code in te leveren. 
+* Label your group's images by hand ("op het oog") for one or more features you plan to measure. Per feature you need to have at least three people repeating the measurements, and each person measures all 100 images. 
 
+* For example, if you measure two features, you can have persons A, B and C measuring feature 1, and persons D, E, F measuring feature 2. Your Excel file will then have 6 additional columns.
 
-Hand-in your by-hand annotations (for your group images), following the template in group2019_example_labels.xlsx:  
+* You can decide yourself how to measure things, but the measurement has to be numerical. For example a binary score (0 = no, 1 = yes), a scale (for example 1 to 5), etc.  
 
-- The first column ID should contain the IDs (without the file extension) of your images
-- The other columns should be named FeatureName_GroupNumber_AnnotatorNumber
-- The columns Melanoma etc are just examples, you do not have these yet, so you can ignore them
-- The annotations in one column have to be made by one person
-- The annotations have to be numeric, either integers (0,1,2..) or decimals (1.5…) are allowed
-- The first sheet should not contain anything else, except the columns above
-- The second sheet "key" should have short descriptions of the features 
-- Call your file group2019_XY_manual.xlsx
+* Follow the instructions of the template and use the same format. 
+
+* This data will allow you to start doing experiments early on, so that you can spread the work inside the group. 
 
 
+### Intermediate assignment - part 2
 
-## Code tips
+* Write down a list of features you want to measure, and the strategy you plan to use. These steps should be similar to pseudocode, for example "resize the image, subtract original image from the smaller image" etc. 
 
-When extending the code, keep in mind the following:
+*	A possible experiment to test out your method, what could you compare with what? You could use the measurements you create, to already try this out a bit. 
 
-- Separate data and code. For example if you use a threshold value, it should be defined as a variable so it is easy to change, and not hard-coded in the function. 
+* The goal of this assignment is to get feedback on your plans, there is no grade.  
 
-- Use consistent and descriptive variable and function names (for example shape_area instead of a) 
-
-- Comment your code, especially when it is not possible to read from the statement what is happening (for example, calculate_area(shape) is clear enough) 
+* Hand in both parts of the assignment on Canvas 
 
 
 
-## Handing in your project
+## Final assignment
 
-For the final assignment you have to hand in your report (see the Casusinfo) and your code. You can hand in the code this with a ZIP file. Some tips:
+For the final assignment you have to hand in your report (see Canvas) and your code. You can hand in the code this with a ZIP file. Some tips:
 
--	Your main script has to be called group2019_XY.ipynb where XY is the group number. This script has to perform everything that is necessary to create your measurements and experiments.  
+*	Your main script has to be called class2020_groupXY.ipynb where XY is the group number. This script has to perform everything that is necessary to create your measurements and experiments.  
 
-- Include the Excel file that your code creates (group2019_automatic.xlsx)
+* Include the Excel file that your code creates (class2020_groupXY_automatic.xlsx)
 
--	All necessary code (except common Python packages) needs to be included in the zip file. 
+*	All necessary code (except common Python packages) needs to be included in the zip file. 
 
-- Do NOT include the images in the zip file. 
+* Do NOT include the lesion images in the ZIP file. 
 
--	The code has to run if it is unzipped on a different computer, after changing the directory where the images are located.
+*	The code has to run if it is unzipped on a different computer, after changing the directory where the images are located.
 
--	Follow the guidelines above for using comments, and separating your parameters from your code. 
-
-# Presentation
-Om stem op te nemen zijn er verschillende gratis programma’s beschikbaar, zoals Audacity.
-Gebruik geen extern beeldmateriaal waarvan de auteursrechten dit niet toestaan. In Google Image search kun je bij “Tools” aangeven dat beelden die gevonden worden, “Labeled for reuse” zijn.
 
 
