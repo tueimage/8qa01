@@ -31,7 +31,7 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 *	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from https://surfdrive.surf.nl/files/index.php/s/nMApH6fK10RjSMa .
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from Surfdrive (ask your instructor for the link).
 
 
 ## Intermediate assignment
