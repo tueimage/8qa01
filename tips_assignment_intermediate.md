@@ -13,8 +13,6 @@ There are two things you need to do in your assignment, measure the images by ha
 
 * Follow the instructions of the template and use the same format.
 
-* Hand in the `class2020_groupXY_manual.xlsx` file on Canvas.
-
 * This data will allow you to start doing experiments early on, so that you can spread the work inside the group. 
 
 
@@ -26,4 +24,4 @@ There are two things you need to do in your assignment, measure the images by ha
 
 * The goal of this assignment is to get feedback on your plans, there is no grade.  
 
-* Hand in both parts of the assignment on Canvas 
+* Hand in both parts of the assignment in a ZIP file via Canvas 
