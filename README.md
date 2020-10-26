@@ -1,26 +1,30 @@
 # Course Project: Image Analysis for cancer risk assessment (8QA01)
 
-This is a repository for the course 8QA01 at Eindhoven University of Technology. In this repository you will find information relating to the technical part of your project. Information about deadlines etc, is all announced via the Canvas page. 
+This is a repository for the course 8QA01 at Eindhoven University of Technology. This course takes place on three platforms: Github, Canvas and Teams:
+
+* In this Github repository you will find all content and technical part of the course
+* Canvas is used for announcements, handing in your assignments, and discussion forum
+* Teams is used for meetings 
+
+Your lecturer is Veronika or Dr. Cheplygina. 
 
 ## Getting started 
 
-In this project you will work with Python. This means you need to install software to run and edit Python code. We have a tutorial which guides you through this here: https://github.com/tueimage/essential-skills/blob/master/python-essentials.md . If you use Python for a different course (for example Genomics), you do not need to do anything extra. 
-
-For this course you can use Jupyter Notebook which is covered in the tutorial, but other software (if you use it in other subjects) is also possible. 
+In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md 
 
 ## Structure
 
-The overall project steps can be found in the notebook (project_walkthrough.ipynb), which already contains a general script to: 
+The overall project steps can be found in the notebook (`class2020_group00_script.ipynb`), which already contains a general script to: 
 
 * go through all the images
 * measure simple features in each image
 * create a plot of the measurements. 
 
-These steps use functions, which can be find in the module utilities_8qa01.py. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
+These steps use functions, which can be find in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
 
 ## Data
 
-To get started with the project, we will need some images. We use images from the following paper:
+For the project we use images from the following paper:
 
 Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyris K, Mishra N, Kittler H, Halpern A. "Skin Lesion Analysis Toward Melanoma Detection: A Challenge at the 2017 International Symposium on Biomedical Imaging (ISBI), Hosted by the International Skin Imaging Collaboration (ISIC)". arXiv: 1710.05006 [cs.CV] Available: https://arxiv.org/abs/1710.05006
 
@@ -31,12 +35,12 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 *	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from Surfdrive (ask your instructor for the link).
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can get the ZIP file from Surfdrive (ask your lecturer for the link).
 
 
 ## Intermediate assignment
 
-Initially you will work with a subset of 100 images, which are different for each group. The Excel files with the IDs of the images you need, will be shared on Canvas. The format is the same as of the file `class2020_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
+Initially you will work with a subset of 100 images, which are different for each group. The format is the same as of the file `class2020_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column. 
 
 There are two things you need to do in your assignment, measure the images by hand, and describe your plan for the final assignment.
 
@@ -69,17 +73,16 @@ There are two things you need to do in your assignment, measure the images by ha
 
 ## Final assignment
 
-For the final assignment you have to hand in your report (see Canvas) and your code. You can hand in the code this with a ZIP file. Some tips:
+For the final assignment you have to hand in your report and your code, in a ZIP file. Some tips:
 
-*	Your main script has to be called `class2020_groupXY.ipynb` where XY is the group number. This script has to perform everything that is necessary to create your measurements and experiments.  
+*	Your script/function files should be called the same as the template, only with the group number adjusted. This script has to perform everything that is necessary to create your measurements and experiments.  
 
-* Include the Excel file that your code creates (`class2020_groupXY_automatic.xlsx`)
-
-*	All necessary code (except common Python packages) needs to be included in the zip file. 
+*	All necessary code (except common Python packages) needs to be included in the ZIP file. 
 
 * Do NOT include the lesion images in the ZIP file. 
 
 *	The code has to run if it is unzipped on a different computer, after changing the directory where the images are located.
+
 
 # Assessment 
 
@@ -94,4 +97,3 @@ The main things to pay attention to are:
 *	Clarity of explanation, readability, structure of report
 *	Creativity and clarity of the presentation
 
-TODO: Add rubric
