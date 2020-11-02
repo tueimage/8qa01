@@ -59,5 +59,5 @@ This project consists of two assignments and a presentation:
 
 * Final assignment, which is graded. You hand in a ZIP file on Canvas, with your report and code. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_final.md
 
-* The final assignment is also concluded with a "presentation", which is a YouTube movie of 3 minutes. 
+* The final assignment is also concluded with a "presentation", which is a YouTube movie of 3 minutes. Some tips are here: https://github.com/tueimage/8qa01/blob/master/tips_presentation.md
 
