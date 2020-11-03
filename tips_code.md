@@ -1,16 +1,13 @@
 # Getting started with code
 
-Many of you will be new to coding when you start the project. That is OK - do not worry, several groups of students before you have done it already :) 
+Many of you will be new to coding when you start the project. That is OK - do not worry, several groups of students before you have done it already :) It is important to remember that you are are not "naturally" better or worse at programming, it is just a skill that can be learned and improved with practice. It IS a lot to learn at once, so do not worry if it seems overwhelming at first. 
 
-Here are some things to keep in mind:
+To help you get started, there are various resources available:
 
 * You will be following the Genomics course at the same time, where you will learn basics, like if statements and for loops. 
 * A guide to working with Python used in the IMAG/e group is found here: https://github.com/tueimage/essential-skills/blob/master/python-essentials.md
-
-There are also various online lessons/tutorials which you can consult, for example:
-
-* https://swcarpentry.github.io/python-novice-inflammation/ 
-* https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2
+* Online course https://swcarpentry.github.io/python-novice-inflammation/ 
+* Online tutorial https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2
 
 You may use Github to work on your code together as a group, so that Github keeps track of which changes are made by whom. But this adds an extra step to what you need to learn, so it is optional! Instead if you just want to work together on the same files, you might want to look at Google Colab https://colab.research.google.com/, which works similar to Google Docs. 
 
