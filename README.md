@@ -20,34 +20,34 @@ In this project you will learn to measure features in images of skin lesions, an
 ## Slides & videos
 
 1. Introduction
-Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part1_Introduction.pdf
-Video: https://youtu.be/9xep-64KJy8 
+* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part1_Introduction.pdf
+* Video: https://youtu.be/9xep-64KJy8 
 
 2. Features
-Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part2_Features.pdf
-Video: https://youtu.be/4EQQiu2WZ8E
+* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part2_Features.pdf
+* Video: https://youtu.be/4EQQiu2WZ8E
 
 3. Classifiers
-Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part3_Classifiers.pdf
-Video: https://youtu.be/EK55c9r-n8w
+* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part3_Classifiers.pdf
+* Video: https://youtu.be/EK55c9r-n8w
 
 4. Evaluation
-Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part4_Evaluation.pdf
-Video: https://youtu.be/HUJOzpDozoQ
+* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part4_Evaluation.pdf
+* Video: https://youtu.be/HUJOzpDozoQ
 
 
 ## Project code
 
 In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md 
 
-Some basis steps needed to complete the project are found in the Jupyter notebook `class2020_group00_script.ipynb`, which already contains a general script to: 
+Some basic steps needed to complete the project are found in the Jupyter notebook `class2020_group00_script.ipynb`, which already contains a general script to: 
 
 * go through all the images
 * measure simple features in each image
 * create a plot of the measurements
 * predict the label of the image, based on the measurements
 
-These steps use functions, which can be find in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
+These steps use functions, which can be found in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
 
 ## Data
 
