@@ -17,9 +17,23 @@ In this project you will learn to measure features in images of skin lesions, an
 * Come up with experiments to test if your predictions are good
 * Think about other issues concerning automatic diagnosis
 
-## Slides 
+## Slides & videos
 
-I will explain the assignment in more detail during the lecture. The slides and recordings will be posted here after the lecture.
+1. Introduction
+Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part1_Introduction.pdf
+Video: https://youtu.be/9xep-64KJy8 
+
+2. Features
+Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part2_Features.pdf
+Video: https://youtu.be/4EQQiu2WZ8E
+
+3. Classifiers
+Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part3_Classifiers.pdf
+Video: https://youtu.be/EK55c9r-n8w
+
+4. Evaluation
+Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part4_Evaluation.pdf
+Video: https://youtu.be/HUJOzpDozoQ
 
 
 ## Project code
