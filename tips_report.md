@@ -47,10 +47,11 @@ If you use code that you find online (such as stackoverflow), please cite it wit
 
 # General tips
 
-* Think about who will read your report. Try to write for a target audience of students, who will do this course this year. New concepts should be therefore explained clearly.
+* Think about who will read your report. Try to write for a target audience of students, who will do this course this year. New concepts should be therefore explained clearly but concisely.
 * Be consistent in the terminology and abbreviations that you use. 
 * When showing figures, the caption should be readable stand-alone (clear by itself, without finding the explanation in the text)
-* Break up long paragraphs so it they are easier to read  
+* Break up long paragraphs so they are easier to read  
+* Follow the rules about the page limit etc. 
 
 
 
