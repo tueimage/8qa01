@@ -62,7 +62,9 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 *	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can also get it here: https://surfdrive.surf.nl/files/index.php/s/ZxuiojXx8rmIq3q 
+The full dataset is available via https://challenge.isic-archive.com/landing/2017 . You should download all three sets (Training, Validation and Test) since your list of images can contain images from any of them. After this you can put the images in one folder, and the masks in one folder. 
+
+If you just want to look at some images without registering, you can get the Training set here: https://surfdrive.surf.nl/files/index.php/s/ZxuiojXx8rmIq3q . This does NOT include the Valdiation and Test set. I have tried to upload these on Surfdrive as well, but due to the internet speed at my home office, this does not seem possible.  
 
 
 ## Assignments
