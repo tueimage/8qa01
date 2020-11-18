@@ -81,9 +81,9 @@ This project consists of two assignments and a presentation:
 
 Here are some tips that students of previous years gave for you! 
 
-*“Don’t spend too long on literature in the beginning”
-*“Make a plan, especially for time away from campus”
-*“Start coding early”
-*“Don’t be afraid to try things out”
-*“You can do it even if nobody has programmed before!”
+* “Don’t spend too long on literature in the beginning”
+* “Make a plan, especially for time away from campus”
+* “Start coding early”
+* “Don’t be afraid to try things out”
+* “You can do it even if nobody has programmed before!”
 
