@@ -62,7 +62,9 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 *	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, but to only get the images you need, you can also get it here: https://surfdrive.surf.nl/files/index.php/s/ZxuiojXx8rmIq3q 
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here https://surfdrive.surf.nl/files/index.php/s/qcjlXkcUxWT8Bfg.  
+
+You can put all images into one folder (so you do not have the train/validation/test split), and all masks into one folder. 
 
 
 ## Assignments
@@ -74,4 +76,14 @@ This project consists of two assignments and a presentation:
 * Final assignment, which is graded. You hand in a ZIP file on Canvas, with your report and code. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_final.md
 
 * The final assignment is also concluded with a "presentation", which is a YouTube movie of 3 minutes. Some tips are here: https://github.com/tueimage/8qa01/blob/master/tips_presentation.md
+
+## Tips from previous years
+
+Here are some tips that students of previous years gave for you! 
+
+* “Don’t spend too long on literature in the beginning”
+* “Make a plan, especially for time away from campus”
+* “Start coding early”
+* “Don’t be afraid to try things out”
+* “You can do it even if nobody has programmed before!”
 

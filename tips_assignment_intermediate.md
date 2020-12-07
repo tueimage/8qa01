@@ -24,4 +24,4 @@ There are two things you need to do in your assignment, measure the images by ha
 
 * The goal of this assignment is to get feedback on your plans, there is no grade.  
 
-* Hand in both parts of the assignment in a ZIP file via Canvas 
+* Hand in both parts of the assignment in a ZIP file via Canvas. For the "report", you don't need to include an introduction etc, it is sufficient to describe the features and the possible experiment. The length should be 2-3 pages. 
