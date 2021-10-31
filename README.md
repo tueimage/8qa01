@@ -1,16 +1,16 @@
 # Image analysis for cancer risk assessment (8QA01)
 
-This is a repository for the course 8QA01 at Eindhoven University of Technology. This course takes place on three platforms: Github, Canvas and Teams:
+This is a repository for the course 8QA01 at Eindhoven University of Technology. This course takes place on two platforms: Github and Canvas:
 
 * In this Github repository you will find all content and technical part of the course
 * Canvas is used for announcements, handing in your assignments, and discussion forum
-* Teams is used for meetings 
+* Meetings will be at the TU/e, COVID-rules permitting... Otherwise we will switch to MS Teams.
 
-Your lecturer is Veronika or Dr. Cheplygina. 
+Your lecturer is Mark Janse, he can be reached at his TU/e email address (see Canvas).
 
 ## Project goals
 
-In this project you will learn to measure features in images of skin lesions, and predict the diagnosis (for example, melanoma) from these features in an automatic way. You will likely:
+In this project you will learn to measure *features* in images of skin lesions, and predict the diagnosis (for example, melanoma) from these features in an automatic way. You will likely:
 * Study literature to find out what kind of features may be relevant for skin lesion diagnosis
 * Implement methods to measure such features
 * Predict the lesion diagnosis, based on the features
@@ -18,36 +18,20 @@ In this project you will learn to measure features in images of skin lesions, an
 * Think about other issues concerning automatic diagnosis
 
 ## Slides & videos
-
-1. Introduction
-* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part1_Introduction.pdf
-* Video: https://youtu.be/9xep-64KJy8 
-
-2. Features
-* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part2_Features.pdf
-* Video: https://youtu.be/4EQQiu2WZ8E
-
-3. Classifiers
-* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part3_Classifiers.pdf
-* Video: https://youtu.be/EK55c9r-n8w
-
-4. Evaluation
-* Slides: https://github.com/tueimage/8qa01/blob/master/slides/8QA01_Part4_Evaluation.pdf
-* Video: https://youtu.be/HUJOzpDozoQ
-
+There will be a two COCs, see Canvas for details.
 
 ## Project code
 
-In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md 
+In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md
 
-Some basic steps needed to complete the project are found in the Jupyter notebook `class2020_group00_script.ipynb`, which already contains a general script to: 
+Some basic steps needed to complete the project are found in the Jupyter notebook `class2020_group00_script.ipynb`, which already contains a general script to:
 
 * go through all the images
 * measure simple features in each image
 * create a plot of the measurements
 * predict the label of the image, based on the measurements
 
-These steps use functions, which can be found in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook. 
+These steps use functions, which can be found in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook.
 
 ## Data
 
@@ -60,11 +44,11 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 
 *	`ISIC_[ID].png` the image of the lesion
 *	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
-* The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes). 
+* The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes).
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here https://surfdrive.surf.nl/files/index.php/s/qcjlXkcUxWT8Bfg.  
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here [to be determined].
 
-You can put all images into one folder (so you do not have the train/validation/test split), and all masks into one folder. 
+You can put all images into one folder (so you do not have the train/validation/test split), and all masks into one folder.
 
 
 ## Assignments
@@ -75,15 +59,14 @@ This project consists of two assignments and a presentation:
 
 * Final assignment, which is graded. You hand in a ZIP file on Canvas, with your report and code. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_final.md
 
-* The final assignment is also concluded with a "presentation", which is a YouTube movie of 3 minutes. Some tips are here: https://github.com/tueimage/8qa01/blob/master/tips_presentation.md
+* The final assignment is also concluded with a "presentation", more details about this will follow in the coming weeks.
 
 ## Tips from previous years
 
-Here are some tips that students of previous years gave for you! 
+Here are some tips that students of previous years gave for you!
 
 * “Don’t spend too long on literature in the beginning”
 * “Make a plan, especially for time away from campus”
 * “Start coding early”
 * “Don’t be afraid to try things out”
 * “You can do it even if nobody has programmed before!”
-
