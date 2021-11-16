@@ -19,10 +19,10 @@ There are two things you need to do in your assignment: measure the images by ha
 
 ### Intermediate assignment - part 2
 
-* Write down a list of features you want to measure, and the strategy you plan to use. These steps should be similar to pseudocode, for example "resize the image, subtract original image from the smaller image" etc.
+* Write down a list of features you want to measure, and the strategy you plan to use. For each feature, try to make a strategy similar to pseudocode: for example "resize the image, subtract original image from the smaller image" etc.
 
 *	A possible experiment to test out your method, what could you compare with what? You could use the measurements you create, to already try this out a bit.
 
 * The goal of this assignment is to get feedback on your plans and help you prepare better for the final assignment. It will not be graded.
 
-* Hand in both parts of the assignment in a ZIP file via Canvas. For the "report", you don't need to include an introduction etc, it is sufficient to describe the features and the possible experiment. The length should be 2-3 pages.
+* Hand in both parts of the assignment in a ZIP file via Canvas. For the "report", you don't need to include an introduction etc, it is sufficient to describe the features and the possible experiment. The length should be 2-3 pages. Please do include a title page with your group number, group members and the name of your tutor.
