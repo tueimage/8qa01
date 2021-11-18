@@ -24,14 +24,14 @@ There will be a two COCs, see Canvas for details.
 
 In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md
 
-Some basic steps needed to complete the project are found in the Jupyter notebook `class2020_group00_script.ipynb`, which already contains a general script to:
+Some basic steps needed to complete the project are found in the Jupyter notebook `class2021_group00_script.ipynb`, which already contains a general script to:
 
 * go through all the images
 * measure simple features in each image
 * create a plot of the measurements
 * predict the label of the image, based on the measurements
 
-These steps use functions, which can be found in the module `class2020_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook.
+These steps use functions, which can be found in the module `class2021_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook.
 
 ## Data
 
@@ -43,7 +43,7 @@ Codella N, Gutman D, Celebi ME, Helba B, Marchetti MA, Dusza S, Kalloo A, Liopyr
 There are more than 2000 images in this dataset. For each image, we have the following data:
 
 *	`ISIC_[ID].png` the image of the lesion
-*	`ISIC_[ID]\_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
+*	`ISIC_[ID]_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes).
 
 The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here [to be determined].

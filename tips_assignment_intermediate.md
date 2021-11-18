@@ -1,6 +1,6 @@
 # Intermediate assignment tips
 
-Initially you will work with a subset of 100 images, which are different for each group. The format is the same as of the file `class2020_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column.
+Initially you will work with a subset of 100 images, which are different for each group. The format is the same as of the file `class2021_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column.
 
 There are two things you need to do in your assignment: measure the images by hand, and describe your plan for the final assignment.
 
@@ -19,10 +19,10 @@ There are two things you need to do in your assignment: measure the images by ha
 
 ### Intermediate assignment - part 2
 
-* Write down a list of features you want to measure, and the strategy you plan to use. For each feature, try to make a strategy similar to pseudocode: for example "resize the image, subtract original image from the smaller image" etc.
+* Write down a list of features you want to measure, and the strategy you plan to use. For each feature, try to make a strategy similar to pseudocode: for example "resize the image, subtract original image from the smaller image" etc.; Think of how we calculate "compactness" in the first COC before we went to the code.
 
 *	A possible experiment to test out your method, what could you compare with what? You could use the measurements you create, to already try this out a bit.
 
 * The goal of this assignment is to get feedback on your plans and help you prepare better for the final assignment. It will not be graded.
 
-* Hand in both parts of the assignment in a ZIP file via Canvas. For the "report", you don't need to include an introduction etc, it is sufficient to describe the features and the possible experiment. The length should be 2-3 pages. Please do include a title page with your group number, group members and the name of your tutor.
+* Hand in both parts of the assignment in a ZIP file via Canvas. For the "report", you don't need to include an introduction etc, it is sufficient to describe the features and the possible experiment. The length should be 2-3 pages (excluding title page). Please include a title page with your group number, group members and the name of your tutor.

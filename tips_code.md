@@ -13,7 +13,7 @@ Please note that having a person with programming experience, does not guarantee
 
 You may use Github to work on your code together as a group, so that Github keeps track of which changes are made by whom. BUT this adds an extra step to what you need to learn, so it is optional! Please ask me in Canvas discussions if you want to try this, and you need more help.
 
-Instead if you just want to work together on the same files, you might want to look at Google Colab https://colab.research.google.com/, which works similar to Google Docs. Here you will need to upload the images every time, or link your Google Drive, so that Google Colab has access to the images.
+Instead if you just want to work together on the same files, you might want to look at Google Colab https://colab.research.google.com/, which works similar to Google Docs. Here you will need to upload the images every time, or link your Google Drive, so that Google Colab has access to the images. Something like Dropbox, SURFDrive or OneDrive might also work for you. Decide as a group what works best for you, there is plenty of room for experimentation.
 
 
 ## Resources
@@ -37,6 +37,6 @@ A technique you might want to try is to do pair programming. This means two peop
 The goal of this project is to learn image analysis, not to learn how to work at a big tech company. Therefore your code will not be evaluated on how efficient it is. However, you want to pay attention to the following things:
 
 * Does your code run on a different computer, after only adjusting the folder paths? Tip: try to see if all group members can run the code at their own laptop
-* Is your code separated from data? For example if you use some predefined values, they should be defined at the top of the script.
-* Is the code using consistent and descriptive variable and function names? Is it clear what is happening?
-* Are the comments helpful in explaining what is happening?
+* Is your code separated from data? For example if you use some predefined values (like a paremeter of a feature), they should be defined at the top of the script.
+* Is the code using consistent and descriptive variable and function names? Is it clear what is happening? E.g. use variable names like `image`, `mask` instead of `iiii`, `mm`, `whydoesntitwork`.
+* Are the comments helpful in explaining what is happening? You do not need to comment every line of code, but one comment in the entire file is another extreme. See the example code for some pointers on what/how you can and should comment.
