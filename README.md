@@ -46,7 +46,7 @@ There are more than 2000 images in this dataset. For each image, we have the fol
 *	`ISIC_[ID]_segmentation.png` the mask of the lesion, showing which pixels belong to the lesion or not
 * The label of the image, i.e. whether it belongs to the Melanoma class (0 = no, 1 = yes), and/or the Keratosis class (0 = no, 1 = yes).
 
-The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here at https://surfdrive.surf.nl/files/index.php/s/yfAaln5OSh1vFCl (large file, around 5GB).
+The full dataset is available via https://challenge.isic-archive.com/landing/2017, a copy is available here at https://surfdrive.surf.nl/files/index.php/s/yfAaln5OSh1vFCl (large file, around 11GB).
 
 You can put all images into one folder (so you do not have the train/validation/test split), and all masks into one folder.
 
