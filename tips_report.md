@@ -3,7 +3,7 @@
 For your final assignment you need to hand in a report about your experiments and findings. The report can be in English or in Dutch (but not both at the same time).
 Below you can find information about what sections to include in your report, and some general tips.
 
-The length of the report is maximum 8 pages A4 with font size 11. This is excluding the title page, contents, references and appendices.
+The length of the report is maximum 10 pages A4 with font size 11. This is excluding the title page, contents, references and appendices.
 
 
 ## Introduction
@@ -23,14 +23,14 @@ Tip: you will be reading quite a bit of scientific literature in this course. Ha
 
 Here you should refer to previous work / literature on this topic. Indicate which ideas are your own.
 
-You can use some code here, if you alternate it with explaining the steps (so not just copy pasting lots of code). Use figures to intuitively illustrate various steps of methods.
+You can use some (pseudo-)code here, if you alternate it with explaining the steps (so not just copy pasting lots of code). Use figures to intuitively illustrate various steps of methods.
 
-If you use code that you find online (such as stackoverflow), please cite it with a link. Not citing work of others you use is considered plagiarism in the scientific world.
+If you use code that you find online (such as stackoverflow), please cite it with a link. Not citing work of others you use is considered plagiarism in the scientific world. The TU/e considers plagiarism to be a very harsh offence and blatant cases may be referred to the examination committee.
 
 ## Experiments and results
 
 * Describe the steps which you use to test if your method is working
-* Try to include both quantitative (such as accuracy) and qualitative (such as examples of images are classified incorrectly) results
+* Try to include both quantitative (numbers, such as accuracy) and qualitative (such as examples of images are classified incorrectly) results
 * You do not have to show ALL results you get, but you can summarize some of them and show the most important ones. Other results can be included in the appendix.
 * Interpret the results - what is your method doing well, and what can be improved?
 

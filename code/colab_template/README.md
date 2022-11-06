@@ -7,7 +7,7 @@ but has been adapted for use with Google Colab.
 First, make a project folder in google drive that can be shared with other group members. In this folder make the folders 
 code, images, and masks. 
 - The code folder should contain the notebook from this folder and the 
-class2021_group00_functions.py file containing the functions. Also, upload the Excel or CSV files containing the labels to this folder. (for instance class2021_group00_labels.xlsx) 
+class2022_group00_functions.py file containing the functions. Also, upload the Excel or CSV files containing the labels to this folder. (for instance class2022_group00_labels.xlsx) 
  - The images folder should contain the lesion images. 
  - The masks folder should contain the mask images. 
 

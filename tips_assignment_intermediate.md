@@ -1,6 +1,6 @@
 # Intermediate assignment tips
 
-Initially you will work with a subset of 100 images, which are different for each group. The format is the same as of the file `class2021_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column.
+Initially you will work with a subset of 100 images, which are different for each group. The format is the same as of the file `class2022_group00_id.xlsx`. One image ID corresponds to one row, and one piece of information (such as a measurement of the image) corresponds to one column.
 
 There are two things you need to do in your assignment: measure the images by hand, and describe your plan for the final assignment.
 

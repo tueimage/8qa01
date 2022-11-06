@@ -44,6 +44,7 @@ def measureAreaPerimeter(maskImage):
     return area, perimeter
 
 
+# Note: below function is not relevant until after the second COC
 def knn_classifier(X_train, y_train, X_validation, X_test, k):
     # Returns the labels for test_data, predicted by the k-NN clasifier trained on X_train and y_train
     # Input:

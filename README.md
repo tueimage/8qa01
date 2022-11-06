@@ -24,14 +24,14 @@ There will be a two COCs, see Canvas for details.
 
 In this project you will work with Python. This means you need to install software to run and edit Python code. Read more tips about getting started with Python here: https://github.com/tueimage/8qa01/blob/master/tips_code.md
 
-Some basic steps needed to complete the project are found in the Jupyter notebook `class2021_group00_script.ipynb`, which already contains a general script to:
+Some basic steps needed to complete the project are found in the Jupyter notebook `class2022_group00_script.ipynb`, which already contains a general script to:
 
 * go through all the images
 * measure simple features in each image
 * create a plot of the measurements
 * predict the label of the image, based on the measurements
 
-These steps use functions, which can be found in the module `class2021_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook.
+These steps use functions, which can be found in the module `class2022_group00_functions.py`. This is where you should add more functions for completing your project, and then call these functions from the notebook.
 
 ## Data
 
@@ -55,7 +55,7 @@ You can put all images into one folder (so you do not have the train/validation/
 
 This project consists of two assignments and a presentation:
 
-* Intermediate assignment, which is NOT graded, but for which you will get feedback. For this assignment you need to think of some image features you want to measure, and label a number of images. You hand in a ZIP file on Canvas, with a short report and an Excel sheet with labels. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_intermediate.md
+* Intermediate assignment, which is *NOT* graded, but for which you will get feedback. For this assignment you need to think of some image features you want to measure, and label a number of images. You hand in a ZIP file on Canvas, with a short report and an Excel sheet with labels. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_intermediate.md
 
 * Final assignment, which is graded. You hand in a ZIP file on Canvas, with your report and code. More details here: https://github.com/tueimage/8qa01/blob/master/tips_assignment_final.md
 

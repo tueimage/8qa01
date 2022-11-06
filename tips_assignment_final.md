@@ -6,6 +6,8 @@ For the final assignment you have to hand in your report and your code, in a ZIP
 
 *	Please include all code needed to perform your experiments in the ZIP file, but do NOT include the images. Do not rename files you are provided, except changing the group number. The code has to run if it is unzipped on a different computer, after changing the directory where the images are located.
 
+During the second COC, some practical tips and guidelines will be given for what is expected from you in the report. The grading system will also be made available on Canvas.
+
 
 # Assessment
 

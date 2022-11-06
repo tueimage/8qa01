@@ -4,9 +4,9 @@ Most of you will be new to programming when you start the project. That is OK - 
 
 There is already starter code available for you in this repository. If you have never coded before, the first goal for you should be to run this code. Then, you can make changes and see how it affects the final result. Google things you are not sure of as you need them - you do not need to "know" all the basics to get started.
 
-Think of it as a board game with many rules, like Monopoly or Settlers of Catan. If you read the instructions with the rules, and then start playing, you will probably have a more difficult time, than if you just start.
+Think of it as a board game with many rules, like Monopoly or Ticket to Ride. If you read the instructions with the rules, and then start playing, you will probably have a more difficult time, than if you just start.
 
-Please note that having a person with programming experience, does not guarantee that your project will be more successful. One of the best projects so far was a group of 6 students, who have all not done any programming before, but they worked together and all learned a lot.
+Please note that having a person with programming experience, does not guarantee that your project will be more successful. While programming is a large part of the project, it is far from the only thing you'll be graded on! One of the best projects so far was a group of 6 students, who have all not done any programming before, but they worked together and all learned a lot.
 
 
 ## Working together
@@ -25,7 +25,7 @@ To help you get started, there are various resources available:
 * Online course https://swcarpentry.github.io/python-novice-inflammation/
 * Online tutorial https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2
 
-You are allowed to use any code you find online, as long as you include the URL as a reference.
+You are allowed to use _any_ code you find online, as long as you include the URL as a reference. Using code is allowed, plagiarism is not.
 
 ## Pair programming
 
@@ -37,6 +37,6 @@ A technique you might want to try is to do pair programming. This means two peop
 The goal of this project is to learn image analysis, not to learn how to work at a big tech company. Therefore your code will not be evaluated on how efficient it is. However, you want to pay attention to the following things:
 
 * Does your code run on a different computer, after only adjusting the folder paths? Tip: try to see if all group members can run the code at their own laptop
-* Is your code separated from data? For example if you use some predefined values (like a paremeter of a feature), they should be defined at the top of the script.
+* Is your code separated from data or settings? For example if you use some predefined values (like a parameter of a feature, or location of your images), they should be defined at the top of the script.
 * Is the code using consistent and descriptive variable and function names? Is it clear what is happening? E.g. use variable names like `image`, `mask` instead of `iiii`, `mm`, `whydoesntitwork`.
 * Are the comments helpful in explaining what is happening? You do not need to comment every line of code, but one comment in the entire file is another extreme. See the example code for some pointers on what/how you can and should comment.
