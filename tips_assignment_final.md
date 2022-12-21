@@ -2,7 +2,7 @@
 
 For the final assignment you have to hand in your report and your code, in a ZIP file on Canvas. Some tips:
 
-* Your report can be in English or Dutch, and must be at most 8 pages A4 (excluding front page, appendices, reference list etc.). Read more about the report here: https://github.com/tueimage/8qa01/blob/master/tips_report.md
+* Your report can be in English or Dutch, and must be at most 10 pages A4 (excluding front page, appendices, reference list etc.). Read more about the report here: https://github.com/tueimage/8qa01/blob/master/tips_report.md
 
 *	Please include all code needed to perform your experiments in the ZIP file, but do NOT include the images. Do not rename files you are provided, except changing the group number. The code has to run if it is unzipped on a different computer, after changing the directory where the images are located.
 
